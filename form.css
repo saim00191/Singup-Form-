@@ -1,0 +1,132 @@
+body{
+    background-color: grey;
+    font-size: 14px;
+}
+.container{
+    background: white;
+    width: 640px;
+    padding: 25px;
+    margin: 50px auto;
+    border-top: 5px solid blue;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    outline: none;
+}
+.Singup{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+}
+.input-name{
+    width: 100%;
+    margin: 20px;
+    position: relative;
+}
+.input-name i{
+    padding: 8px 11px;
+}
+.name{
+    width: 40%;
+    padding: 8px 0 8px 40px;
+    outline: none;
+}
+.nam {
+    width: 40%;
+    padding: 8px 0 8px 40px;
+    outline: none;
+   
+}
+.input-name i{
+    position: absolute;
+    font-size: 18px;
+    color: blue;
+}
+.input-name span{
+    margin-left: 5px;
+}
+.em{
+    width: 88.5%;
+    padding: 8px 0 8px 40px;
+    outline: none;
+    margin-right: 25px;
+}
+
+
+
+.phone{
+    width: 88.5%;
+    padding: 8px 0 8px 40px;
+    outline: none;
+    margin-right: 25px;
+}
+.gender{
+    margin:15px ;
+}
+.country{
+    width: 95.6%;
+    padding: 8px 0 8px 40px;
+    outline: none;
+}
+
+
+
+.password{
+    width: 89%;
+    padding: 8px 0 8px 40px;
+    outline: none;
+}
+.pp{
+    padding: 20px 0 8px;
+ 
+}
+.ps{
+    padding: 12px 0 8px; 
+}
+.submit{
+    background-color: blue;
+    width: 96%;
+    padding: 10px 0 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+    margin: 2px auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+    outline: none;
+}
+.submit:hover{
+    background: green;
+}
+.cb{
+    padding: 10px 0 8px;
+    margin: 2px auto;
+    margin-right: 9px;
+}
+.name:hover, .nam:hover, .em:hover, .phone:hover, .country:hover, .password:hover{
+    background-color: gainsboro;
+   
+}
+.name:focus, .nam:focus, .em:focus, .phone:focus, .country:focus, .password:focus{
+    border: 2px solid blue;
+}
+.arrow{
+    position: absolute;
+    top :calc(50% - 4px);
+    right: 40px;
+    width: 0px;
+    height: 0px;
+    pointer-events: none;
+    border-width: 8px 5px 0px 5px;
+    border-style: solid;
+    border-color: blue  transparent  transparent transparent;
+  
+}
+.input-name i{
+    border-right: 1px solid gainsboro;
+}
+.country{
+    margin-right: 5px;
+}
